@@ -17,7 +17,8 @@ You draw the "skeleton" (single-line centerlines with a couple of diameters tagg
 5. **Directional highlights for a simple 3D "tube" look.** A single highlight band per vessel tree, merged into one continuous shape and clipped so it can't bleed past the vessel's own edge, then left **pre-selected** when the script finishes so you can apply Illustrator's own Gaussian Blur to all of them in one action. (Scripted/automatic blur via `applyEffect` proved unreliable across Illustrator versions — see [Known limitations](#known-limitations) — so this last step is a deliberate one-click manual finish rather than a silent no-op.) Highlights live on their own layer for easy toggling/deletion.
 6. **Cleanup pass** for the small sliver artifacts Illustrator's own Pathfinder boolean operations are known to leave behind at intersections.
 
-<img width="950" height="478" alt="image" src="https://github.com/user-attachments/assets/2de8ec0c-7b06-45cc-8371-f5f93afe51b2" />
+<img width="986" height="483" alt="image" src="https://github.com/user-attachments/assets/45f94fde-83e6-4697-950c-4550c4ebb4f6" />
+
 
 ## Requirements
 
